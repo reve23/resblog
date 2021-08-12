@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- img_link="https://source.unsplash.com/500x700/weekly?python-programming" -->
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+
+    <title>Dev-Optimal</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Dev-Optimal</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">All Topics</a></li>
+                <li><a class="dropdown-item" href="#">Web development</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Android Development</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Programming</a>
+              </li>
+              <li>
+                  <a class="dropdown-item" href="#">SELF-TAUGHT</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Photography</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="/join.html">Join us </a></li>
+                <li><a class="dropdown-item" href="#">Write for us.</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/1.jfif" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="border">Work as a freelance developer in this era</h2>
+            <h5 class="text-dark">
+              You may have wondering how you can earn money online.While you
+              have a smart device with you, you can earn according to youyr
+              skills.
+            </h5>
+            <button class="btn btn-primary">Read Full</button>
+            <button type="button" class="btn btn-outline-primary mx-2">
+              Follow
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/2.jfif" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="border">How to become a software Engineer in 2021</h2>
+            <h5>
+              It's now 2021, In order to become a software developer you don't
+              need to have a college degree. You can self-taught yourself and
+              become a software developer. Here are the skills that you need to
+              master.
+            </h5>
+            <button class="btn btn-primary">Read Full</button>
+            <button type="button" class="btn btn-outline-primary mx-2">
+              Follow
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/3.jfif" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h2 class="border text-dark">How to think like a programmer</h2>
+            <h5>
+              Once you want to be a good programmer you need to think like a
+              programmer. You have to gain good problem solving skiils. If you
+              can not solve the problem or you can't at least think like that
+              then you can't be a good programmer.
+            </h5>
+            <button class="btn btn-primary">Read Full</button>
+            <button type="button" class="btn btn-outline-primary mx-2">
+              Follow
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container my-4">
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="
+              row
+              g-0
+              border
+              rounded
+              overflow-hidden
+              flex-md-row
+              mb-4
+              shadow-sm
+              h-md-250
+              position-relative
+            "
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary"
+                >Web Development</strong
+              >
+              <h3 class="mb-0">Learn FrontEndDevelopment</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">
+                Learn HTML,CSS,JAVASCRIPT,REACTJS and the most popular
+                frameworks for styling and creating a goood layout
+              </p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="./img/5.jfif"
+                class="bd-placeholder-img"
+                width="200"
+                height="250"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="
+              row
+              g-0
+              border
+              rounded
+              overflow-hidden
+              flex-md-row
+              mb-4
+              shadow-sm
+              h-md-250
+              position-relative
+            "
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success"
+                >Programming</strong
+              >
+              <h3 class="mb-0">Learn Python for data analysis</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">
+                Python is the most popular programming language for data
+                analysis and artificial intelligence. You can learn data science
+                from scratch with python.
+              </p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="./img/4.jfif"
+                class="bd-placeholder-img"
+                width="200"
+                height="250"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div
+            class="
+              row
+              g-0
+              border
+              rounded
+              overflow-hidden
+              flex-md-row
+              mb-4
+              shadow-sm
+              h-md-250
+              position-relative
+            "
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary"
+                >Forward Progress</strong
+              >
+              <h3 class="mb-0">Don't copy and paste</h3>
+              <div class="mb-1 text-muted">Nov 12</div>
+              <p class="card-text mb-auto">
+                Lot's of begginers do One thing they pick a tutorial and copy
+                the whole out of it. But what are we getting out of it? We are
+                working on a project, building it by coping and pasting and we
+                are taking nothing. This is why..
+              </p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="./img/7.jpg"
+                class="bd-placeholder-img"
+                width="200"
+                height="250"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div
+            class="
+              row
+              g-0
+              border
+              rounded
+              overflow-hidden
+              flex-md-row
+              mb-4
+              shadow-sm
+              h-md-250
+              position-relative
+            "
+          >
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success"
+                >Self taught</strong
+              >
+              <h3 class="mb-0">How you can make your self job ready?</h3>
+              <div class="mb-1 text-muted">Nov 11</div>
+              <p class="mb-auto">
+                What are the steps that you are taking to establish yourself?
+                Becoming a good developer is not an easy task.It's challenging
+                in many use cases where you need to create your workflow.
+              </p>
+              <a href="#" class="stretched-link">Continue reading</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img
+                src="./img/8.jpg"
+                class="bd-placeholder-img"
+                width="200"
+                height="250"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<section>
+    <div class="container-fluid px-4 py-5 bg-dark text-light" id="icon-grid">
+      <h2 class="pb-2 border-bottom">Topics</h2>
+  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+          <div>
+            <h4 class="fw-bold mb-0">Content Creation</h4>
+            <p>Creating dev based content to help people</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+          <div>
+            <h4 class="fw-bold mb-0">Software Development</h4>
+            <p>Blog posts about new software development challenges and scopes that are coming in nearest future.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+          <div>
+            <h4 class="fw-bold mb-0">Web development</h4>
+            <p>Learn about Html,css,javascript,django,react,bootstrap</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+          <div>
+            <h4 class="fw-bold mb-0">Apps Development</h4>
+            <p>React Native or flutter which one is best? Learn more about app development.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+          <div>
+            <h4 class="fw-bold mb-0">Technology</h4>
+            <p>Newest technology updates in this year. Stay in touch</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+          <div>
+            <h4 class="fw-bold mb-0">Raspberry Pi</h4>
+            <p>Learn about single board computers and IOT devices as Raspberry pi.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+          <div>
+            <h4 class="fw-bold mb-0">Careers in IT</h4>
+            <p>Know about the careers and scopes as a IT professionals. What are waiting for you?</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+          <div>
+            <h4 class="fw-bold mb-0">Learning Curve</h4>
+            <p>Which way to learn programming?.</p>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section class="my-5">
+<div class="row mb-2">
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-primary">Business</strong>
+        <h3 class="mb-0">Start a business with Dev-Optimal</h3>
+        <div class="mb-1 text-muted">Nov 12</div>
+        <p class="card-text mb-auto">Start your startup with Dev-Optimal with a short amount of time.</p>
+        <a href="#" class="stretched-link">Continue reading</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <img src="./img/6.jpg" class="bd-placeholder-img" width="200" height="250" alt="">
+
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+      <div class="col p-4 d-flex flex-column position-static">
+        <strong class="d-inline-block mb-2 text-success">Proffession</strong>
+        <h3 class="mb-0">Join Dev-Optimal</h3>
+        <div class="mb-1 text-muted">Nov 11</div>
+        <p class="mb-auto">Join Dev-Optimal as a software developer. Here you can find your joy of work</p> 
+        <a href="#" class="stretched-link">Continue reading</a>
+      </div>
+      <div class="col-auto d-none d-lg-block">
+        <img src="./img/7.jpg" class="bd-placeholder-img" width="200" height="250" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</div>
+</div>
+</div>
+
+      <footer class="container-fluid py-5 bg-dark">
+        <div class="row">
+          <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+            <small class="d-block mb-3 text-muted">© 2017–2021</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Cool stuff</a></li>
+              <li><a class="link-secondary" href="#">Random feature</a></li>
+              <li><a class="link-secondary" href="#">Team feature</a></li>
+              <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+          
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Resource name</a></li>
+              <li><a class="link-secondary" href="#">Resource</a></li>
+            
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Business</a></li>
+              <li><a class="link-secondary" href="#">Education</a></li>
+              <li><a class="link-secondary" href="#">Government</a></li>
+              <li><a class="link-secondary" href="#">Gaming</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Team</a></li>
+              <li><a class="link-secondary" href="#">Locations</a></li>
+              <li><a class="link-secondary" href="#">Privacy</a></li>
+              <li><a class="link-secondary" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
